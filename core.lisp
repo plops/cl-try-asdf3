@@ -1,5 +1,5 @@
 (defpackage "project/core"
-  (:use "common-lisp")
+  (:use :common-lisp)
   (:export #:hello))
 
 (in-package "project/core")

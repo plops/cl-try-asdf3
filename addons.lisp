@@ -1,6 +1,6 @@
 (defpackage "project/addons"
-  (:use "common-lisp" "project/core")
-  (:import-from "cl-ppcre"))
+  (:use :common-lisp "project/core")
+  (:import-from :cl-ppcre))
 
 (in-package "project/addons")
 
