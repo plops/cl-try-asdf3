@@ -1,5 +1,5 @@
 (defpackage "project/test"
-  (:use #:common-lisp "project/core")
+  (:use #:common-lisp "project/core" #:fiveam)
   (:import-from #:fiveam)
   (:export #:all-tests
 	   #:run!))
