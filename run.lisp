@@ -6,3 +6,5 @@
 
 ;; http://turtleware.eu/posts/Tutorial-Working-with-FiveAM.html
 (asdf:test-system "project")
+
+(project/test:all-tests)
