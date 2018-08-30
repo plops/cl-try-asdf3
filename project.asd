@@ -7,6 +7,6 @@
   :in-order-to ((test-op (test-op "project/test")))
   )
 (defsystem "project/test"
-  :depends-on ("project" "fiveam")
+  ;:depends-on ("fiveam")
   :components ((:file "test"))
-  :perform (test-op (o c) (symbol-call :fiveam '#:run! 'project/test:all-tests)))
+  :perform (test-op (o c) (symbol-call :fiveam '#:run! :all-tests)))
